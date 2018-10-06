@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CV</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+</head>
+<body id="body">
+<div class="container">
+    <div class="row">
+        <div class="col s12 l3">
+            <%- include('profileLeft') %>
+        </div>
+        <div class="col s12 l8">
+            <%- include('widgets/summary') %>
+            <div class="row">
+                <div class="col s12 m12 xl8"><%- include('widgets/personal-info') %></div>
+                <div class="col s12 m12 xl4"><%- include('widgets/languages') %></div>
+            </div>
+            <%- include('widgets/education') %>
+
+            <div class="row">
+                <div class="col s12 xl6">
+                    <%- include('widgets/courses') %>
+                </div>
+                <div class="col s12 xl6">
+                    <%- include('widgets/work_experience') %>
+                </div>
+            </div>
+            <%- include('widgets/skills') %>
+            <%- include('widgets/samples') %>
+        </div>
+        <div class="col s1">
+            <%- include('vertical-icons') %>
+        </div>
+    </div>
+
+</div>
+
+<%- include('floating-elements') %>
+<script src="dist/app.js"></script>
+</body>
+</html>

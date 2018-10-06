@@ -1,0 +1,94 @@
+body {
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+  font: 16px 'Raleway', sans-serif;
+  background: #F3F3F3; }
+
+#crtBgShape1 {
+  left: 0; }
+
+#crtBgShape1, #crtBgShape2 {
+  top: 0;
+  position: fixed;
+  z-index: -1; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+#crtBgShape2 {
+  top: -100px;
+  right: -100px; }
+
+#crtBgShape1 polygon {
+  fill: #A71A1F; }
+
+#crtBgShape2 polygon {
+  fill: #223D72; }
+
+.my-dark-blue {
+  background: #223D72; }
+
+.my-social-btns:hover {
+  background: none;
+  opacity: .7;
+  transition-delay: 0.1s; }
+
+.btn-block {
+  width: 100%; }
+
+.main-titles {
+  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #000; }
+
+.main-text {
+  color: rgba(75, 75, 75, 0.88);
+  text-align: justify;
+  font: 1.1em 'Quicksand', sans-serif;
+  line-height: 1.7em; }
+
+.h4-name {
+  text-transform: uppercase;
+  font-size: 1.8em; }
+
+.my-list tr {
+  border: none; }
+.my-list i {
+  margin-right: 1em;
+  vertical-align: middle;
+  color: #223D72; }
+
+.education-box h3 a {
+  font-size: 0.7em;
+  color: #A71A1F; }
+
+.education a, .education p {
+  color: rgba(75, 75, 75, 0.88);
+  font: 1em 'Quicksand', sans-serif;
+  line-height: 1.7em; }
+
+.mt-0 {
+  margin-top: 0; }
+
+.no-borders, .no-borders li {
+  border: none; }
+
+.vertical-icons-div {
+  padding-top: 3em; }
+  .vertical-icons-div i {
+    width: 1.8em;
+    height: 1.8em; }
+  .vertical-icons-div a {
+    display: block;
+    margin-bottom: 1em; }
+
+#Work-Experience {
+  padding-bottom: .5em; }
+
+#goToTop {
+  bottom: 3em;
+  right: 2em; }
+
+/*# sourceMappingURL=custom.css.map */

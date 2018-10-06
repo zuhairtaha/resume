@@ -1,0 +1,70 @@
+[
+  {
+    "id": "HTML",
+    "progress": "90"
+  },
+  {
+    "id": "CSS",
+    "progress": "78"
+  },
+  {
+    "id": "ECMAScript",
+    "progress": "80"
+  },
+  {
+    "id": "PHP",
+    "progress": "80"
+  },
+  {
+    "id": "MySQL",
+    "progress": "90"
+  },
+  {
+    "id": "Codeigniter",
+    "progress": "85"
+  },
+  {
+    "id": "Photoshop",
+    "progress": "85"
+  },
+  {
+    "id": "Ajax",
+    "progress": "90"
+  },
+  {
+    "id": "jQuery",
+    "progress": "75"
+  },
+  {
+    "id": "C#",
+    "progress": "35"
+  },
+  {
+    "id": "ASP.NET",
+    "progress": "35"
+  },
+  {
+    "id": "JSON",
+    "progress": "75"
+  },
+  {
+    "id": "Java",
+    "progress": "27"
+  },
+  {
+    "id": "Android Studio",
+    "progress": "30"
+  },
+  {
+    "id": "Laravel",
+    "progress": "20"
+  },
+  {
+    "id": "Node.js",
+    "progress": "60"
+  },
+  {
+    "id": "Express",
+    "progress": "45"
+  }
+]

@@ -1,0 +1,21 @@
+.grid:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.grid-sizer, .grid-item {
+  width: 7em; }
+
+/* 2 columns */
+.grid-item--width2 {
+  width: 15em; }
+
+.grid-item {
+  float: left;
+  margin-bottom: 1em; }
+  .grid-item img {
+    display: block;
+    max-width: 100%;
+    border-left: solid 3px #223d72; }
+
+/*# sourceMappingURL=grid.css.map */

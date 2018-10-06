@@ -1,0 +1,124 @@
+$my-red: #A71A1F;
+$my-blue: #223D72;
+$my-gray: rgba(75, 75, 75, 0.88);
+body {
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+
+  font: 16px 'Raleway', sans-serif;
+  background: #F3F3F3;
+}
+
+#crtBgShape1 {
+  left: 0;
+}
+
+#crtBgShape1, #crtBgShape2 {
+  top: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+#crtBgShape2 {
+  top: -100px;
+  right: -100px;
+}
+
+#crtBgShape1 polygon {
+  fill: $my-red
+}
+
+#crtBgShape2 polygon {
+  fill: $my-blue
+}
+
+.my-dark-blue {
+  background: $my-blue
+}
+
+.my-social-btns:hover {
+  background: none;
+  opacity: .7;
+  transition-delay: 0.1s;
+}
+
+.btn-block {
+  width: 100%
+}
+
+.main-titles {
+  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #000
+}
+
+.main-text {
+  color: $my-gray;
+  text-align: justify;
+  font: 1.1em 'Quicksand', sans-serif;
+  line-height: 1.7em;
+}
+
+.h4-name {
+  text-transform: uppercase;
+  font-size: 1.8em;
+}
+
+.my-list {
+  tr {
+    border: none;
+  }
+  i {
+    margin-right: 1em;
+    vertical-align: middle;
+    color: $my-blue
+  }
+}
+
+.education-box h3 a {
+  font-size: 0.7em;
+  color: $my-red
+}
+
+.education {
+  a, p {
+    color: $my-gray;
+    font: 1em 'Quicksand', sans-serif;
+    line-height: 1.7em;
+  }
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.no-borders, .no-borders li {
+  border: none;
+}
+
+.vertical-icons-div {
+  padding-top: 3em;
+  i {
+    width: 1.8em;
+    height: 1.8em;
+  }
+  a {
+    display: block;
+    margin-bottom: 1em;
+  }
+}
+
+#Work-Experience {
+  padding-bottom: .5em;
+}
+
+#goToTop {
+  bottom: 3em;
+  right: 2em;
+}
