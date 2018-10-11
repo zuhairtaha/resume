@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d64f279-3a7d-46aa-8324-193af8a2496a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/javascripts/samples.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/samples.json" afterDir="false" />
-    </list>
+    <list default="true" id="5d64f279-3a7d-46aa-8324-193af8a2496a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -142,8 +140,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/samples.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="343" column="3" lean-forward="true" selection-start-line="343" selection-start-column="3" selection-end-line="343" selection-end-column="3" />
+            <state relative-caret-position="292">
+              <caret line="342" column="16" lean-forward="true" selection-start-line="342" selection-start-column="16" selection-end-line="342" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -437,12 +435,12 @@
       <option name="presentableId" value="Default" />
       <updated>1538768291877</updated>
       <workItem from="1538768304051" duration="60254000" />
-      <workItem from="1539262567392" duration="358000" />
+      <workItem from="1539262567392" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60612000" />
+    <option name="totallyTimeSpent" value="60853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -742,8 +740,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/samples.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="343" column="3" lean-forward="true" selection-start-line="343" selection-start-column="3" selection-end-line="343" selection-end-column="3" />
+        <state relative-caret-position="292">
+          <caret line="342" column="16" lean-forward="true" selection-start-line="342" selection-start-column="16" selection-end-line="342" selection-end-column="16" />
         </state>
       </provider>
     </entry>
