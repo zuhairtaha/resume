@@ -53,12 +53,14 @@ svg:not(:root) {
   text-transform: uppercase;
   font-size: 1.8em; }
 
+@media (min-width: 768px) {
+  .my-list tr {
+    line-height: 2.5em; } }
 .my-list tr {
   border: none; }
 .my-list i {
   margin-right: 1em;
-  vertical-align: middle;
-  color: #223D72; }
+  vertical-align: middle; }
 
 .education-box h3 a {
   font-size: 0.7em;
@@ -76,7 +78,7 @@ svg:not(:root) {
   border: none; }
 
 .vertical-icons-div {
-  padding-top: 3em; }
+  padding-top: 8em; }
   .vertical-icons-div i {
     width: 1.8em;
     height: 1.8em; }
@@ -90,5 +92,11 @@ svg:not(:root) {
 #goToTop {
   bottom: 3em;
   right: 2em; }
+
+.galleryIcons i {
+  vertical-align: middle;
+  margin-left: 1em; }
+
+/* increase the height and width as you desire */
 
 /*# sourceMappingURL=custom.css.map */

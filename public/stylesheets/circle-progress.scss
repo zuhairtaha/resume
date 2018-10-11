@@ -1,12 +1,12 @@
 //styling
-$borderWidth: 7px;
+$borderWidth: .8em;
 $animationTime: 1.5s;
 $border-color-default: #eee;
 $border-color-fill: #A71A1F;
 $size: 100px;
 
 //Create how many steps
-$howManySteps: 10; //this needs to be even.
+$howManySteps: 20; //this needs to be even.
 //for fun try using 20 and changine in the HTML the data-percentage to 15 or 85
 
 .Progress {

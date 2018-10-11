@@ -1,6 +1,15 @@
 // init Masonry
 import Masonry from "masonry-layout"
 import imagesLoaded from "imagesloaded"
+import "lightgallery.js"
+import "./../libs/lightGallery1.1/js/lg-fullscreen"
+import "./../libs/lightGallery1.1/js/lg-hash"
+import "./../libs/lightGallery1.1/js/lg-pager"
+import "./../libs/lightGallery1.1/js/lg-autoplay"
+import "./../libs/lightGallery1.1/js/lg-share"
+//import "./../libs/lightGallery1.1/js/lg-thumbnail"
+import "./../libs/lightGallery1.1/js/lg-video"
+import "./../libs/lightGallery1.1/js/lg-zoom"
 
 // =========== Masonry ===========================
 // external js: masonry.pkgd.js, imagesloaded.pkgd.js
@@ -19,7 +28,7 @@ export function fetchSamples(type = "all") {
         .then(data => data.json())
         .then(webObjects => {
 
-            let samplesList = '<div class="grid-sizer"></div>'
+            let samplesList = '<li class="grid-sizer"></li>'
             webObjects.forEach(web => {
                 // filter results
                 if (["php", "wordpress", "vbulletin", "android", "html"].includes(type)) {
@@ -30,11 +39,23 @@ export function fetchSamples(type = "all") {
                 let divClass = "grid-item"
                 if (web.width === "2") divClass = "grid-item grid-item--width2"
                 samplesList += `
-                <div class="${divClass}">
-                    <a class="hvr-grow-shadow" href="images/websites/${web.id}.jpg"> 
-                        <img class="responsive-img z-depth-2" src="images/thumb/thumb_${web.id}.jpg">
+                <li class="${divClass}" data-src="images/websites/${web.id}.jpg"
+                    data-sub-html="<span class='galleryIcons'>
+                      <i class='material-icons'> date_range </i>  ${web.year}
+                      <i class='material-icons'> code </i> ${web.programming}
+                      `
+                if (web.link) samplesList += `<i class='material-icons'> link </i> 
+                         <a target='_blank' href='${web.link}'>${web.link}</a>`
+                samplesList += `</span>"
+                    data-pinterest-text="Pin it1" 
+                >
+                    <a class="hvr-grow-shadow" href=""> 
+                        <img class="responsive-img z-depth-2" 
+                              src="images/thumb/thumb_${web.id}.jpg"
+                              alt="thumb_${web.id}"
+                              >
                     </a>
-                </div>`
+                </li>`
             })
             grid.innerHTML = samplesList
         })
@@ -44,6 +65,9 @@ export function fetchSamples(type = "all") {
             imagesLoaded(grid).on('progress', () => {
                 // layout Masonry after each image loads
                 masonryGrid.layout()
+                lightGallery(grid, {
+                    thumbnail: true
+                })
             })
         })
         .catch(err => console.log(err))

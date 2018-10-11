@@ -11,7 +11,7 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 7px solid #eee;
+    border: 0.8em solid #eee;
     position: absolute;
     top: 0;
     left: 0; }
@@ -28,7 +28,7 @@
     width: 100%;
     height: 100%;
     background: none;
-    border-width: 7px;
+    border-width: 0.8em;
     border-style: solid;
     position: absolute;
     top: 0;
@@ -68,85 +68,170 @@
 /* This for loop creates the 	necessary css animation names
 Due to the split circle of progress-left and progress right, we must use the animations on each side.
 */
-.Progress[data-percentage="10"] .progress-right .progress-bar {
+.Progress[data-percentage="5"] .progress-right .progress-bar {
   animation: loading-1 1.5s linear forwards; }
+.Progress[data-percentage="5"] .progress-left .progress-bar {
+  animation: 0; }
+
+.Progress[data-percentage="10"] .progress-right .progress-bar {
+  animation: loading-2 1.5s linear forwards; }
 .Progress[data-percentage="10"] .progress-left .progress-bar {
   animation: 0; }
 
+.Progress[data-percentage="15"] .progress-right .progress-bar {
+  animation: loading-3 1.5s linear forwards; }
+.Progress[data-percentage="15"] .progress-left .progress-bar {
+  animation: 0; }
+
 .Progress[data-percentage="20"] .progress-right .progress-bar {
-  animation: loading-2 1.5s linear forwards; }
+  animation: loading-4 1.5s linear forwards; }
 .Progress[data-percentage="20"] .progress-left .progress-bar {
   animation: 0; }
 
+.Progress[data-percentage="25"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards; }
+.Progress[data-percentage="25"] .progress-left .progress-bar {
+  animation: 0; }
+
 .Progress[data-percentage="30"] .progress-right .progress-bar {
-  animation: loading-3 1.5s linear forwards; }
+  animation: loading-6 1.5s linear forwards; }
 .Progress[data-percentage="30"] .progress-left .progress-bar {
   animation: 0; }
 
+.Progress[data-percentage="35"] .progress-right .progress-bar {
+  animation: loading-7 1.5s linear forwards; }
+.Progress[data-percentage="35"] .progress-left .progress-bar {
+  animation: 0; }
+
 .Progress[data-percentage="40"] .progress-right .progress-bar {
-  animation: loading-4 1.5s linear forwards; }
+  animation: loading-8 1.5s linear forwards; }
 .Progress[data-percentage="40"] .progress-left .progress-bar {
   animation: 0; }
 
+.Progress[data-percentage="45"] .progress-right .progress-bar {
+  animation: loading-9 1.5s linear forwards; }
+.Progress[data-percentage="45"] .progress-left .progress-bar {
+  animation: 0; }
+
 .Progress[data-percentage="50"] .progress-right .progress-bar {
-  animation: loading-5 1.5s linear forwards; }
+  animation: loading-10 1.5s linear forwards; }
 .Progress[data-percentage="50"] .progress-left .progress-bar {
   animation: 0; }
 
-.Progress[data-percentage="60"] .progress-right .progress-bar {
-  animation: loading-5 1.5s linear forwards; }
-.Progress[data-percentage="60"] .progress-left .progress-bar {
+.Progress[data-percentage="55"] .progress-right .progress-bar {
+  animation: loading-10 1.5s linear forwards; }
+.Progress[data-percentage="55"] .progress-left .progress-bar {
   animation: loading-1 1.5s linear forwards 1.5s; }
 
-.Progress[data-percentage="70"] .progress-right .progress-bar {
-  animation: loading-5 1.5s linear forwards; }
-.Progress[data-percentage="70"] .progress-left .progress-bar {
+.Progress[data-percentage="60"] .progress-right .progress-bar {
+  animation: loading-10 1.5s linear forwards; }
+.Progress[data-percentage="60"] .progress-left .progress-bar {
   animation: loading-2 1.5s linear forwards 1.5s; }
 
-.Progress[data-percentage="80"] .progress-right .progress-bar {
-  animation: loading-5 1.5s linear forwards; }
-.Progress[data-percentage="80"] .progress-left .progress-bar {
+.Progress[data-percentage="65"] .progress-right .progress-bar {
+  animation: loading-10 1.5s linear forwards; }
+.Progress[data-percentage="65"] .progress-left .progress-bar {
   animation: loading-3 1.5s linear forwards 1.5s; }
 
-.Progress[data-percentage="90"] .progress-right .progress-bar {
-  animation: loading-5 1.5s linear forwards; }
-.Progress[data-percentage="90"] .progress-left .progress-bar {
+.Progress[data-percentage="70"] .progress-right .progress-bar {
+  animation: loading-10 1.5s linear forwards; }
+.Progress[data-percentage="70"] .progress-left .progress-bar {
   animation: loading-4 1.5s linear forwards 1.5s; }
 
-.Progress[data-percentage="100"] .progress-right .progress-bar {
-  animation: loading-5 1.5s linear forwards; }
-.Progress[data-percentage="100"] .progress-left .progress-bar {
+.Progress[data-percentage="75"] .progress-right .progress-bar {
+  animation: loading-10 1.5s linear forwards; }
+.Progress[data-percentage="75"] .progress-left .progress-bar {
   animation: loading-5 1.5s linear forwards 1.5s; }
+
+.Progress[data-percentage="80"] .progress-right .progress-bar {
+  animation: loading-10 1.5s linear forwards; }
+.Progress[data-percentage="80"] .progress-left .progress-bar {
+  animation: loading-6 1.5s linear forwards 1.5s; }
+
+.Progress[data-percentage="85"] .progress-right .progress-bar {
+  animation: loading-10 1.5s linear forwards; }
+.Progress[data-percentage="85"] .progress-left .progress-bar {
+  animation: loading-7 1.5s linear forwards 1.5s; }
+
+.Progress[data-percentage="90"] .progress-right .progress-bar {
+  animation: loading-10 1.5s linear forwards; }
+.Progress[data-percentage="90"] .progress-left .progress-bar {
+  animation: loading-8 1.5s linear forwards 1.5s; }
+
+.Progress[data-percentage="95"] .progress-right .progress-bar {
+  animation: loading-10 1.5s linear forwards; }
+.Progress[data-percentage="95"] .progress-left .progress-bar {
+  animation: loading-9 1.5s linear forwards 1.5s; }
+
+.Progress[data-percentage="100"] .progress-right .progress-bar {
+  animation: loading-10 1.5s linear forwards; }
+.Progress[data-percentage="100"] .progress-left .progress-bar {
+  animation: loading-10 1.5s linear forwards 1.5s; }
 
 @keyframes loading-1 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
   100% {
+    -webkit-transform: rotate(18);
+    transform: rotate(18deg); } }
+@keyframes loading-2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
     -webkit-transform: rotate(36);
     transform: rotate(36deg); } }
-@keyframes loading-2 {
+@keyframes loading-3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(54);
+    transform: rotate(54deg); } }
+@keyframes loading-4 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
   100% {
     -webkit-transform: rotate(72);
     transform: rotate(72deg); } }
-@keyframes loading-3 {
+@keyframes loading-5 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(90);
+    transform: rotate(90deg); } }
+@keyframes loading-6 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
   100% {
     -webkit-transform: rotate(108);
     transform: rotate(108deg); } }
-@keyframes loading-4 {
+@keyframes loading-7 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(126);
+    transform: rotate(126deg); } }
+@keyframes loading-8 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
   100% {
     -webkit-transform: rotate(144);
     transform: rotate(144deg); } }
-@keyframes loading-5 {
+@keyframes loading-9 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(162);
+    transform: rotate(162deg); } }
+@keyframes loading-10 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }

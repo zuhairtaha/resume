@@ -70,6 +70,12 @@ svg:not(:root) {
   font-size: 1.8em;
 }
 
+@media (min-width: 768px) {
+  .my-list tr {
+    line-height: 2.5em;
+  }
+}
+
 .my-list {
   tr {
     border: none;
@@ -77,7 +83,6 @@ svg:not(:root) {
   i {
     margin-right: 1em;
     vertical-align: middle;
-    color: $my-blue
   }
 }
 
@@ -103,7 +108,7 @@ svg:not(:root) {
 }
 
 .vertical-icons-div {
-  padding-top: 3em;
+  padding-top: 8em;
   i {
     width: 1.8em;
     height: 1.8em;
@@ -122,3 +127,10 @@ svg:not(:root) {
   bottom: 3em;
   right: 2em;
 }
+
+.galleryIcons i {
+  vertical-align: middle;
+  margin-left: 1em;
+}
+
+/* increase the height and width as you desire */
