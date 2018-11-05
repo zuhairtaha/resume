@@ -64,7 +64,19 @@
     "progress": "60"
   },
   {
-    "id": "Express",
+    "id": "Express.js",
     "progress": "45"
+  },
+  {
+    "id": "MongoDB",
+    "progress": "33"
+  },
+  {
+    "id": "ReactJS",
+    "progress": "25"
+  },
+  {
+    "id": "GraphQL",
+    "progress": "20"
   }
 ]
