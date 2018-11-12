@@ -134,3 +134,10 @@ svg:not(:root) {
 }
 
 /* increase the height and width as you desire */
+
+@media (min-width: 993px) {
+  .sticky-top {
+    position: sticky;
+    top: 0;
+  }
+}

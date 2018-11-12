@@ -117,6 +117,10 @@ svg:not(:root) {
   margin-left: 1em; }
 
 /* increase the height and width as you desire */
+@media (min-width: 993px) {
+  .sticky-top {
+    position: sticky;
+    top: 0; } }
 @media (min-width: 768px) {
   .padd-box-sm {
     margin-left: 8%;
