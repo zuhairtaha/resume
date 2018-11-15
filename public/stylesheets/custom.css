@@ -51,7 +51,8 @@ svg:not(:root) {
 
 .h4-name {
   text-transform: uppercase;
-  font-size: 1.8em; }
+  font-size: 1.8em;
+  letter-spacing: 0.2rem; }
 
 @media (min-width: 768px) {
   .my-list tr {
@@ -86,9 +87,6 @@ svg:not(:root) {
     display: block;
     margin-bottom: 1em; }
 
-#Work-Experience {
-  padding-bottom: .5em; }
-
 #goToTop {
   bottom: 3em;
   right: 2em; }
@@ -98,9 +96,25 @@ svg:not(:root) {
   margin-left: 1em; }
 
 /* increase the height and width as you desire */
+@media (max-width: 992px) {
+  .vertical-icons-div {
+    display: none; } }
 @media (min-width: 993px) {
   .sticky-top {
     position: sticky;
     top: 0; } }
+@media (max-width: 992px) {
+  #personal-photo {
+    width: 50%; }
+
+  .card-profile-left {
+    text-align: center;
+    width: 100%; }
+
+  .h4-name {
+    font-size: 1.5rem; } }
+@media (max-width: 460px) {
+  .personal-label-span {
+    display: none; } }
 
 /*# sourceMappingURL=custom.css.map */

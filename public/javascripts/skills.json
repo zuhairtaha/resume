@@ -28,24 +28,12 @@
     "progress": "85"
   },
   {
-    "id": "Ajax",
-    "progress": "90"
-  },
-  {
-    "id": "jQuery",
-    "progress": "75"
-  },
-  {
     "id": "C#",
     "progress": "35"
   },
   {
     "id": "ASP.NET",
     "progress": "35"
-  },
-  {
-    "id": "JSON",
-    "progress": "75"
   },
   {
     "id": "Java",
