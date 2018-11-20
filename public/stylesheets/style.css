@@ -68,6 +68,9 @@ svg:not(:root) {
   font: 1.1em 'Quicksand', sans-serif;
   line-height: 1.7em; }
 
+@media (max-width: 767px) {
+  .main-text {
+    text-align: left; } }
 .h4-name {
   text-transform: uppercase;
   font-size: 1.8em;
