@@ -54,7 +54,7 @@ svg:not(:root) {
   font-size: 1.8em;
   letter-spacing: 0.2rem; }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .my-list tr {
     line-height: 2.5em; } }
 .my-list tr {
@@ -99,6 +99,9 @@ svg:not(:root) {
 @media (max-width: 992px) {
   .vertical-icons-div {
     display: none; } }
+.sticky-top {
+  display: flex; }
+
 @media (min-width: 993px) {
   .sticky-top {
     position: sticky;

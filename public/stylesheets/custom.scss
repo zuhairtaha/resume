@@ -71,7 +71,7 @@ svg:not(:root) {
   letter-spacing: 0.2rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .my-list tr {
     line-height: 2.5em;
   }
@@ -140,6 +140,10 @@ svg:not(:root) {
   .vertical-icons-div {
     display: none;
   }
+}
+
+.sticky-top {
+  display: flex;
 }
 
 @media (min-width: 993px) {

@@ -8,16 +8,20 @@
     "progress": "78"
   },
   {
+    "id": "Bootstrap",
+    "progress": "90"
+  },
+  {
     "id": "ECMAScript",
-    "progress": "80"
+    "progress": "85"
   },
   {
     "id": "PHP",
-    "progress": "80"
+    "progress": "75"
   },
   {
     "id": "MySQL",
-    "progress": "90"
+    "progress": "93"
   },
   {
     "id": "Codeigniter",
@@ -28,43 +32,15 @@
     "progress": "85"
   },
   {
-    "id": "C#",
-    "progress": "35"
-  },
-  {
-    "id": "ASP.NET",
-    "progress": "35"
-  },
-  {
-    "id": "Java",
-    "progress": "27"
-  },
-  {
-    "id": "Android Studio",
-    "progress": "30"
-  },
-  {
-    "id": "Laravel",
-    "progress": "20"
-  },
-  {
     "id": "Node.js",
     "progress": "60"
   },
   {
     "id": "Express.js",
-    "progress": "45"
-  },
-  {
-    "id": "MongoDB",
-    "progress": "33"
+    "progress": "55"
   },
   {
     "id": "ReactJS",
-    "progress": "25"
-  },
-  {
-    "id": "GraphQL",
-    "progress": "20"
+    "progress": "55"
   }
 ]

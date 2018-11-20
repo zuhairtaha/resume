@@ -28,11 +28,9 @@
     width: 100%;
     height: 100%;
     background: none;
-    border-width: 0.4em;
-    border-style: solid;
     position: absolute;
     top: 0;
-    border-color: #A71A1F; }
+    border: 0.4em solid #A71A1F; }
   .Progress .progress-left .progress-bar {
     left: 100%;
     border-top-right-radius: 50px;
@@ -241,7 +239,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .Progress {
   margin-bottom: 1em; }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   .Progress {
     display: inline-block !important; } }
 

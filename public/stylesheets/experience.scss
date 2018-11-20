@@ -1,4 +1,6 @@
-@media (min-width: 768px) {
+$small-width: 1561px;
+
+@media (min-width: $small-width) {
   .padd-box-sm {
     margin-left: 8%;
     margin-right: 8%
@@ -47,8 +49,6 @@
 .education-box h3, .education-logo {
   margin-bottom: 10px
 }
-
-
 
 .education-box:before {
   content: "";
@@ -112,7 +112,7 @@
   display: inline-block
 }
 
-@media (min-width: 768px) {
+@media (min-width: $small-width) {
   .education-box:before, .education:before {
     top: 10px
   }
@@ -169,8 +169,6 @@
 .education-box h3, .education-logo {
   margin-bottom: 10px
 }
-
-
 
 .education-box:before {
   content: "";

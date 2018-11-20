@@ -42,11 +42,9 @@ $howManySteps: 20; //this needs to be even.
     width: 100%;
     height: 100%;
     background: none;
-    border-width: $borderWidth;
-    border-style: solid;
     position: absolute;
     top: 0;
-    border-color: $border-color-fill;
+    border: $borderWidth solid $border-color-fill;
   }
   .progress-left .progress-bar {
     left: 100%;
@@ -141,7 +139,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin-bottom: 1em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   .Progress {
     display: inline-block !important;
   }

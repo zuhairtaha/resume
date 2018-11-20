@@ -73,7 +73,7 @@ svg:not(:root) {
   font-size: 1.8em;
   letter-spacing: 0.2rem; }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .my-list tr {
     line-height: 2.5em; } }
 .my-list tr {
@@ -118,6 +118,9 @@ svg:not(:root) {
 @media (max-width: 992px) {
   .vertical-icons-div {
     display: none; } }
+.sticky-top {
+  display: flex; }
+
 @media (min-width: 993px) {
   .sticky-top {
     position: sticky;
@@ -135,7 +138,7 @@ svg:not(:root) {
 @media (max-width: 460px) {
   .personal-label-span {
     display: none; } }
-@media (min-width: 768px) {
+@media (min-width: 1561px) {
   .padd-box-sm {
     margin-left: 8%;
     margin-right: 8%; } }
@@ -226,7 +229,7 @@ svg:not(:root) {
   margin-bottom: 15px;
   display: inline-block; }
 
-@media (min-width: 768px) {
+@media (min-width: 1561px) {
   .education-box:before, .education:before {
     top: 10px; }
 
@@ -359,11 +362,9 @@ svg:not(:root) {
     width: 100%;
     height: 100%;
     background: none;
-    border-width: 0.4em;
-    border-style: solid;
     position: absolute;
     top: 0;
-    border-color: #A71A1F; }
+    border: 0.4em solid #A71A1F; }
   .Progress .progress-left .progress-bar {
     left: 100%;
     border-top-right-radius: 50px;
@@ -572,7 +573,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .Progress {
   margin-bottom: 1em; }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   .Progress {
     display: inline-block !important; } }
 /*!
