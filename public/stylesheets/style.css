@@ -19,7 +19,7 @@
 @import url(../libs/lightGallery1.1/css/lightgallery.min.css);
 body {
   /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
-  font: 16px 'Raleway', sans-serif;
+  font: 18px 'Raleway', sans-serif;
   background: #F3F3F3; }
 
 #crtBgShape1 {
@@ -141,6 +141,9 @@ svg:not(:root) {
 @media (max-width: 460px) {
   .personal-label-span {
     display: none; } }
+p.extra-skills-desc {
+  font: 1em 'Quicksand', sans-serif; }
+
 @media (min-width: 1561px) {
   .padd-box-sm {
     margin-left: 8%;

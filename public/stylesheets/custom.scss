@@ -4,7 +4,7 @@ $my-gray: rgba(75, 75, 75, 0.88);
 body {
   /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
 
-  font: 16px 'Raleway', sans-serif;
+  font: 18px 'Raleway', sans-serif;
   background: #F3F3F3;
 }
 
@@ -87,6 +87,7 @@ svg:not(:root) {
   tr {
     border: none;
   }
+
   i {
     margin-right: 1em;
     vertical-align: middle;
@@ -116,10 +117,12 @@ svg:not(:root) {
 
 .vertical-icons-div {
   padding-top: 8em;
+
   i {
     width: 1.8em;
     height: 1.8em;
   }
+
   a {
     display: block;
     margin-bottom: 1em;
@@ -176,4 +179,8 @@ svg:not(:root) {
   .personal-label-span {
     display: none;
   }
+}
+
+p.extra-skills-desc {
+  font: 1em 'Quicksand', sans-serif;
 }

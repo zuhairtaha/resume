@@ -12619,7 +12619,7 @@ function fetchSkills() {
     return data.json();
   }).then(function (skills) {
     skills.forEach(function (skill) {
-      programmingSkills += "<div class=\"col s4\">\n                    <p>".concat(skill.id, "</p>\n                    <div class=\"progress grey lighten-2\">\n                        <div class=\"determinate  red darken-4\" style=\"width: ").concat(skill.progress, "%\"></div>\n                    </div></div>");
+      programmingSkills += "<div class=\"col s6 m4\">\n                    <p>".concat(skill.id, "</p>\n                    <div class=\"progress grey lighten-2\">\n                        <div class=\"determinate  red darken-4\" style=\"width: ").concat(skill.progress, "%\"></div>\n                    </div></div>");
     });
     document.querySelector('.programming-skills').innerHTML = programmingSkills;
   });
@@ -12689,7 +12689,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "25923" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "20100" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
