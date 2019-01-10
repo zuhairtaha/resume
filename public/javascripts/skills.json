@@ -1,35 +1,7 @@
 [
   {
-    "id": "HTML",
-    "progress": "90"
-  },
-  {
-    "id": "CSS",
-    "progress": "78"
-  },
-  {
-    "id": "Bootstrap",
-    "progress": "90"
-  },
-  {
-    "id": "ECMAScript",
-    "progress": "85"
-  },
-  {
-    "id": "PHP",
-    "progress": "75"
-  },
-  {
-    "id": "MySQL",
-    "progress": "93"
-  },
-  {
-    "id": "Codeigniter",
-    "progress": "85"
-  },
-  {
-    "id": "Photoshop",
-    "progress": "85"
+    "id": "ReactJS",
+    "progress": "55"
   },
   {
     "id": "Node.js",
@@ -40,7 +12,27 @@
     "progress": "55"
   },
   {
-    "id": "ReactJS",
-    "progress": "55"
+    "id": "MySQL",
+    "progress": "93"
+  },
+  {
+    "id": "CSS",
+    "progress": "78"
+  },
+  {
+    "id": "Bootstrap",
+    "progress": "90"
+  },
+  {
+    "id": "PHP",
+    "progress": "75"
+  },
+  {
+    "id": "Codeigniter",
+    "progress": "85"
+  },
+  {
+    "id": "Photoshop",
+    "progress": "85"
   }
 ]

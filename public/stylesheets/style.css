@@ -4111,6 +4111,9 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .grid-item--width2 {
   width: 15em; }
 
+@media (max-width: 373px) {
+  .grid-sizer, .grid-item {
+    width: 100%; } }
 .grid-item {
   float: left;
   margin-bottom: 1em; }

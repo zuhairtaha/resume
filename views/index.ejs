@@ -19,10 +19,16 @@
         </div>
         <div class="col s12 l8">
             <%- include('widgets/summary') %>
-            <div class="row">
-                <div class="col s12 m12 xl8"><%- include('widgets/personal-info') %></div>
-                <div class="col s12 m12 xl4"><%- include('widgets/languages') %></div>
+
+            <div style="display: flex;" class="row">
+                <div style="flex: 5" class="col s12 m12 xl8 ">
+                    <%- include('widgets/personal-info') %>
+                </div>
+                <div style="flex: 2" class="col s12 m12 xl4 ">
+                    <%- include('widgets/languages') %>
+                </div>
             </div>
+
             <%- include('widgets/skills') %>
             <%- include('widgets/education') %>
 

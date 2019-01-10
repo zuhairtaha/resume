@@ -15,9 +15,16 @@
   width: 15em
 }
 
+@media (max-width: 373px) {
+  .grid-sizer, .grid-item {
+    width: 100%;
+  }
+}
+
 .grid-item {
   float: left;
   margin-bottom: 1em;
+
   img {
     display: block;
     max-width: 100%;
