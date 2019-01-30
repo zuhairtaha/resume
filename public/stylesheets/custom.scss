@@ -1,18 +1,19 @@
-$my-red: #A71A1F;
-$my-blue: #223D72;
+$my-red: #a71a1f;
+$my-blue: #223d72;
 $my-gray: rgba(75, 75, 75, 0.88);
 body {
   /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
 
   font: 18px 'Raleway', sans-serif;
-  background: #F3F3F3;
+  background: #f3f3f3;
 }
 
 #crtBgShape1 {
   left: 0;
 }
 
-#crtBgShape1, #crtBgShape2 {
+#crtBgShape1,
+#crtBgShape2 {
   top: 0;
   position: fixed;
   z-index: -1;
@@ -28,25 +29,25 @@ svg:not(:root) {
 }
 
 #crtBgShape1 polygon {
-  fill: $my-red
+  fill: $my-red;
 }
 
 #crtBgShape2 polygon {
-  fill: $my-blue
+  fill: $my-blue;
 }
 
 .my-dark-blue {
-  background: $my-blue
+  background: $my-blue;
 }
 
 .my-social-btns:hover {
   background: none;
-  opacity: .7;
+  opacity: 0.7;
   transition-delay: 0.1s;
 }
 
 .btn-block {
-  width: 100%
+  width: 100%;
 }
 
 .main-titles {
@@ -55,7 +56,7 @@ svg:not(:root) {
   font-weight: bold;
   margin-top: 0;
   text-transform: uppercase;
-  color: #000
+  color: #000;
 }
 
 .main-text {
@@ -77,30 +78,18 @@ svg:not(:root) {
   letter-spacing: 0.2rem;
 }
 
-@media (min-width: 1200px) {
-  .my-list tr {
-    line-height: 2.5em;
-  }
-}
-
 .my-list {
-  tr {
-    border: none;
-  }
-
-  i {
-    margin-right: 1em;
-    vertical-align: middle;
-  }
+  line-height: 2.5rem;
 }
 
 .education-box h3 a {
   font-size: 0.7em;
-  color: $my-red
+  color: $my-red;
 }
 
 .education {
-  a, p {
+  a,
+  p {
     color: $my-gray;
     font: 1em 'Quicksand', sans-serif;
     line-height: 1.7em;
@@ -111,7 +100,8 @@ svg:not(:root) {
   margin-top: 0;
 }
 
-.no-borders, .no-borders li {
+.no-borders,
+.no-borders li {
   border: none;
 }
 
@@ -130,7 +120,6 @@ svg:not(:root) {
 }
 
 #Work-Experience {
-
 }
 
 #goToTop {
@@ -183,4 +172,7 @@ svg:not(:root) {
 
 p.extra-skills-desc {
   font: 1em 'Quicksand', sans-serif;
+}
+.material-icons {
+  vertical-align: middle;
 }

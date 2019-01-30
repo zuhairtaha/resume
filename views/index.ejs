@@ -18,27 +18,20 @@
             <%- include('profileLeft') %>
         </div>
         <div class="col s12 l8">
+            <%- include('widgets/personal-info') %>
             <%- include('widgets/summary') %>
-
-            <div style="display: flex;" class="row">
-                <div style="flex: 5" class="col s12 m12 xl8 ">
-                    <%- include('widgets/personal-info') %>
-                </div>
-                <div style="flex: 2" class="col s12 m12 xl4 ">
-                    <%- include('widgets/languages') %>
-                </div>
-            </div>
-
             <%- include('widgets/skills') %>
             <%- include('widgets/education') %>
+            <%- include('widgets/languages') %>
 
-            <div class="row">
-                <div class="col s12 xl6">
+
+            <div  style="display: grid;grid-column-gap: 1em;grid-template-columns: 1fr 1fr">
+
                     <%- include('widgets/courses') %>
-                </div>
-                <div class="col s12 xl6">
+
+
                     <%- include('widgets/work_experience') %>
-                </div>
+
             </div>
             <%- include('widgets/samples') %>
         </div>

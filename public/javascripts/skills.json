@@ -1,15 +1,15 @@
 [
   {
+    "id": "ECMAScript",
+    "progress": "95"
+  },
+  {
     "id": "ReactJS",
-    "progress": "55"
+    "progress": "90"
   },
   {
-    "id": "Node.js",
-    "progress": "60"
-  },
-  {
-    "id": "Express.js",
-    "progress": "55"
+    "id": "Node.js, Express.js",
+    "progress": "70"
   },
   {
     "id": "MySQL",
@@ -20,16 +20,8 @@
     "progress": "78"
   },
   {
-    "id": "Bootstrap",
-    "progress": "90"
-  },
-  {
     "id": "PHP",
     "progress": "75"
-  },
-  {
-    "id": "Codeigniter",
-    "progress": "85"
   },
   {
     "id": "Photoshop",

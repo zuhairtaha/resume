@@ -20,12 +20,13 @@
 body {
   /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
   font: 18px 'Raleway', sans-serif;
-  background: #F3F3F3; }
+  background: #f3f3f3; }
 
 #crtBgShape1 {
   left: 0; }
 
-#crtBgShape1, #crtBgShape2 {
+#crtBgShape1,
+#crtBgShape2 {
   top: 0;
   position: fixed;
   z-index: -1; }
@@ -38,17 +39,17 @@ svg:not(:root) {
   right: -100px; }
 
 #crtBgShape1 polygon {
-  fill: #A71A1F; }
+  fill: #a71a1f; }
 
 #crtBgShape2 polygon {
-  fill: #223D72; }
+  fill: #223d72; }
 
 .my-dark-blue {
-  background: #223D72; }
+  background: #223d72; }
 
 .my-social-btns:hover {
   background: none;
-  opacity: .7;
+  opacity: 0.7;
   transition-delay: 0.1s; }
 
 .btn-block {
@@ -76,20 +77,15 @@ svg:not(:root) {
   font-size: 1.8em;
   letter-spacing: 0.2rem; }
 
-@media (min-width: 1200px) {
-  .my-list tr {
-    line-height: 2.5em; } }
-.my-list tr {
-  border: none; }
-.my-list i {
-  margin-right: 1em;
-  vertical-align: middle; }
+.my-list {
+  line-height: 2.5rem; }
 
 .education-box h3 a {
   font-size: 0.7em;
-  color: #A71A1F; }
+  color: #a71a1f; }
 
-.education a, .education p {
+.education a,
+.education p {
   color: rgba(75, 75, 75, 0.88);
   font: 1em 'Quicksand', sans-serif;
   line-height: 1.7em; }
@@ -97,7 +93,8 @@ svg:not(:root) {
 .mt-0 {
   margin-top: 0; }
 
-.no-borders, .no-borders li {
+.no-borders,
+.no-borders li {
   border: none; }
 
 .vertical-icons-div {
@@ -143,6 +140,9 @@ svg:not(:root) {
     display: none; } }
 p.extra-skills-desc {
   font: 1em 'Quicksand', sans-serif; }
+
+.material-icons {
+  vertical-align: middle; }
 
 @media (min-width: 1561px) {
   .padd-box-sm {
@@ -343,11 +343,11 @@ p.extra-skills-desc {
   height: 100px;
   line-height: 100px;
   background: none;
-  margin: 0 auto;
+  display: inline-block;
   box-shadow: none;
   position: relative; }
   .Progress:after {
-    content: "";
+    content: '';
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -370,13 +370,12 @@ p.extra-skills-desc {
     background: none;
     position: absolute;
     top: 0;
-    border: 0.4em solid #A71A1F; }
+    border: 0.4em solid #a71a1f; }
   .Progress .progress-left .progress-bar {
     left: 100%;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     border-left: 0;
-    -webkit-transform-origin: center left;
     transform-origin: center left; }
   .Progress .progress-right {
     right: 0; }
@@ -406,104 +405,104 @@ p.extra-skills-desc {
 /* This for loop creates the 	necessary css animation names
 Due to the split circle of progress-left and progress right, we must use the animations on each side.
 */
-.Progress[data-percentage="5"] .progress-right .progress-bar {
+.Progress[data-percentage='5'] .progress-right .progress-bar {
   animation: loading-1 1.5s linear forwards; }
-.Progress[data-percentage="5"] .progress-left .progress-bar {
+.Progress[data-percentage='5'] .progress-left .progress-bar {
   animation: 0; }
 
-.Progress[data-percentage="10"] .progress-right .progress-bar {
+.Progress[data-percentage='10'] .progress-right .progress-bar {
   animation: loading-2 1.5s linear forwards; }
-.Progress[data-percentage="10"] .progress-left .progress-bar {
+.Progress[data-percentage='10'] .progress-left .progress-bar {
   animation: 0; }
 
-.Progress[data-percentage="15"] .progress-right .progress-bar {
+.Progress[data-percentage='15'] .progress-right .progress-bar {
   animation: loading-3 1.5s linear forwards; }
-.Progress[data-percentage="15"] .progress-left .progress-bar {
+.Progress[data-percentage='15'] .progress-left .progress-bar {
   animation: 0; }
 
-.Progress[data-percentage="20"] .progress-right .progress-bar {
+.Progress[data-percentage='20'] .progress-right .progress-bar {
   animation: loading-4 1.5s linear forwards; }
-.Progress[data-percentage="20"] .progress-left .progress-bar {
+.Progress[data-percentage='20'] .progress-left .progress-bar {
   animation: 0; }
 
-.Progress[data-percentage="25"] .progress-right .progress-bar {
+.Progress[data-percentage='25'] .progress-right .progress-bar {
   animation: loading-5 1.5s linear forwards; }
-.Progress[data-percentage="25"] .progress-left .progress-bar {
+.Progress[data-percentage='25'] .progress-left .progress-bar {
   animation: 0; }
 
-.Progress[data-percentage="30"] .progress-right .progress-bar {
+.Progress[data-percentage='30'] .progress-right .progress-bar {
   animation: loading-6 1.5s linear forwards; }
-.Progress[data-percentage="30"] .progress-left .progress-bar {
+.Progress[data-percentage='30'] .progress-left .progress-bar {
   animation: 0; }
 
-.Progress[data-percentage="35"] .progress-right .progress-bar {
+.Progress[data-percentage='35'] .progress-right .progress-bar {
   animation: loading-7 1.5s linear forwards; }
-.Progress[data-percentage="35"] .progress-left .progress-bar {
+.Progress[data-percentage='35'] .progress-left .progress-bar {
   animation: 0; }
 
-.Progress[data-percentage="40"] .progress-right .progress-bar {
+.Progress[data-percentage='40'] .progress-right .progress-bar {
   animation: loading-8 1.5s linear forwards; }
-.Progress[data-percentage="40"] .progress-left .progress-bar {
+.Progress[data-percentage='40'] .progress-left .progress-bar {
   animation: 0; }
 
-.Progress[data-percentage="45"] .progress-right .progress-bar {
+.Progress[data-percentage='45'] .progress-right .progress-bar {
   animation: loading-9 1.5s linear forwards; }
-.Progress[data-percentage="45"] .progress-left .progress-bar {
+.Progress[data-percentage='45'] .progress-left .progress-bar {
   animation: 0; }
 
-.Progress[data-percentage="50"] .progress-right .progress-bar {
+.Progress[data-percentage='50'] .progress-right .progress-bar {
   animation: loading-10 1.5s linear forwards; }
-.Progress[data-percentage="50"] .progress-left .progress-bar {
+.Progress[data-percentage='50'] .progress-left .progress-bar {
   animation: 0; }
 
-.Progress[data-percentage="55"] .progress-right .progress-bar {
+.Progress[data-percentage='55'] .progress-right .progress-bar {
   animation: loading-10 1.5s linear forwards; }
-.Progress[data-percentage="55"] .progress-left .progress-bar {
+.Progress[data-percentage='55'] .progress-left .progress-bar {
   animation: loading-1 1.5s linear forwards 1.5s; }
 
-.Progress[data-percentage="60"] .progress-right .progress-bar {
+.Progress[data-percentage='60'] .progress-right .progress-bar {
   animation: loading-10 1.5s linear forwards; }
-.Progress[data-percentage="60"] .progress-left .progress-bar {
+.Progress[data-percentage='60'] .progress-left .progress-bar {
   animation: loading-2 1.5s linear forwards 1.5s; }
 
-.Progress[data-percentage="65"] .progress-right .progress-bar {
+.Progress[data-percentage='65'] .progress-right .progress-bar {
   animation: loading-10 1.5s linear forwards; }
-.Progress[data-percentage="65"] .progress-left .progress-bar {
+.Progress[data-percentage='65'] .progress-left .progress-bar {
   animation: loading-3 1.5s linear forwards 1.5s; }
 
-.Progress[data-percentage="70"] .progress-right .progress-bar {
+.Progress[data-percentage='70'] .progress-right .progress-bar {
   animation: loading-10 1.5s linear forwards; }
-.Progress[data-percentage="70"] .progress-left .progress-bar {
+.Progress[data-percentage='70'] .progress-left .progress-bar {
   animation: loading-4 1.5s linear forwards 1.5s; }
 
-.Progress[data-percentage="75"] .progress-right .progress-bar {
+.Progress[data-percentage='75'] .progress-right .progress-bar {
   animation: loading-10 1.5s linear forwards; }
-.Progress[data-percentage="75"] .progress-left .progress-bar {
+.Progress[data-percentage='75'] .progress-left .progress-bar {
   animation: loading-5 1.5s linear forwards 1.5s; }
 
-.Progress[data-percentage="80"] .progress-right .progress-bar {
+.Progress[data-percentage='80'] .progress-right .progress-bar {
   animation: loading-10 1.5s linear forwards; }
-.Progress[data-percentage="80"] .progress-left .progress-bar {
+.Progress[data-percentage='80'] .progress-left .progress-bar {
   animation: loading-6 1.5s linear forwards 1.5s; }
 
-.Progress[data-percentage="85"] .progress-right .progress-bar {
+.Progress[data-percentage='85'] .progress-right .progress-bar {
   animation: loading-10 1.5s linear forwards; }
-.Progress[data-percentage="85"] .progress-left .progress-bar {
+.Progress[data-percentage='85'] .progress-left .progress-bar {
   animation: loading-7 1.5s linear forwards 1.5s; }
 
-.Progress[data-percentage="90"] .progress-right .progress-bar {
+.Progress[data-percentage='90'] .progress-right .progress-bar {
   animation: loading-10 1.5s linear forwards; }
-.Progress[data-percentage="90"] .progress-left .progress-bar {
+.Progress[data-percentage='90'] .progress-left .progress-bar {
   animation: loading-8 1.5s linear forwards 1.5s; }
 
-.Progress[data-percentage="95"] .progress-right .progress-bar {
+.Progress[data-percentage='95'] .progress-right .progress-bar {
   animation: loading-10 1.5s linear forwards; }
-.Progress[data-percentage="95"] .progress-left .progress-bar {
+.Progress[data-percentage='95'] .progress-left .progress-bar {
   animation: loading-9 1.5s linear forwards 1.5s; }
 
-.Progress[data-percentage="100"] .progress-right .progress-bar {
+.Progress[data-percentage='100'] .progress-right .progress-bar {
   animation: loading-10 1.5s linear forwards; }
-.Progress[data-percentage="100"] .progress-left .progress-bar {
+.Progress[data-percentage='100'] .progress-left .progress-bar {
   animation: loading-10 1.5s linear forwards 1.5s; }
 
 @keyframes loading-1 {
