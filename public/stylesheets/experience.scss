@@ -50,15 +50,7 @@ $small-width: 1561px;
   margin-bottom: 10px
 }
 
-.education-box:before {
-  content: "";
-  top: 9px;
-  left: -1px;
-  position: absolute;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%
-}
+
 
 .education-box h3 {
   letter-spacing: 0;
@@ -173,11 +165,14 @@ $small-width: 1561px;
 .education-box:before {
   content: "";
   top: 9px;
-  left: -1px;
+  left: -4px;
   position: absolute;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%
+  width: 10px;
+  height: 10px;
+  border: solid 1px #223D72;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 1;
 }
 
 .education-box h3 {
@@ -218,9 +213,7 @@ $small-width: 1561px;
   border-color: #223D72
 }
 
-.education-box:before {
-  background-color: #000
-}
+
 
 .education-company {
   color: #000

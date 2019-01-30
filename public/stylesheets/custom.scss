@@ -66,7 +66,18 @@ svg:not(:root) {
   line-height: 1.7em;
 }
 
+.courses-work-experience {
+  display: grid;
+  grid-column-gap: 1em;
+  grid-template-columns: 1fr 1fr;
+}
+
 @media (max-width: 767px) {
+  .courses-work-experience {
+    display: flex;
+    flex-direction: column;
+  }
+
   .main-text {
     text-align: left;
   }
@@ -173,6 +184,7 @@ svg:not(:root) {
 p.extra-skills-desc {
   font: 1em 'Quicksand', sans-serif;
 }
+
 .material-icons {
   vertical-align: middle;
 }
