@@ -1,9 +1,9 @@
 <div id="Contact" class="card z-depth-3">
     <div class="card-content z-depth-0">
         <h3 class="main-titles">Contact</h3>
-        <p class="main-text" id="mail-res">Feel free to contact me</p>
+        <p class="main-text">Feel free to contact me</p>
 
-        <form id="contactForm" action="https://contactform.dk/zuhairtaha1@gmail.com">
+        <form action="https://contactform.dk/zuhairtaha1@gmail.com">
             <div class="input-field">
                 <textarea id="message" name="message" class="materialize-textarea"></textarea>
                 <label for="message">Message</label>
@@ -17,27 +17,3 @@
 
     </div>
 </div>
-
-<script>
-    const contactFormEl = document.querySelector('#contactForm');
-    const sendMailResponse = document.getElementById("mail-res");
-
-    /** @param {Event} evt */
-    async function sendMail(evt) {
-        sendMailResponse.textContent = "sending...";
-
-        evt.preventDefault();
-        const form = /** @type {!HTMLFormElement} */ (evt.target);
-
-        const reqInit = {
-            method: "post",
-            body: new FormData(form)
-        };
-        const res = await fetch("https://contactform.dk/zuhairtaha1@gmail.com", reqInit);
-        const text = await res.text();
-        sendMailResponse.textContent = text;
-        setTimeout(() => (sendMailResponse.textContent = ""), 2000);
-    }
-
-    contactFormEl.addEventListener('submit', sendMail);
-</script>
