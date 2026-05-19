@@ -1,23 +1,18 @@
 {
-  "name": "cv",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "parcel": "parcel public/app.js --out-dir public/dist",
-    "start": "node ./bin/www",
-    "watch": "nodemon ./bin/www"
-  },
-  "dependencies": {
-    "cookie-parser": "^1.4.6",
-    "debug": "^4.3.4",
-    "ejs": "^3.1.9",
-    "express": "^4.18.2",
-    "http-errors": "^2.0.0",
-    "imagesloaded": "^5.0.0",
-    "lightgallery": "^2.7.2",
-    "lightgallery.js": "^1.4.0",
-    "masonry-layout": "^4.2.2",
-    "morgan": "^1.10.0",
-    "node-sass": "^9.0.0"
-  }
+	"name": "cv",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"react": "latest",
+		"react-dom": "latest"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-react": "latest",
+		"vite": "latest"
+	}
 }
