@@ -9,7 +9,7 @@ function ProfileCard() {
 	return (
 		<div className="card z-depth-3">
 			<div className="card-panel card-profile-left z-depth-0 my-dark-blue white-text hvr-curl-bottom-left mt-0">
-				<img id="personal-photo" className="circle responsive-img" src="/images/zuhair_taha.jpg" alt="zuhair taha" />
+				<img id="personal-photo" className="circle responsive-img" src={`${import.meta.env.BASE_URL}images/zuhair_taha.jpg`} alt="zuhair taha" />
 				<div className="center-align">
 					<h5 className="h4-name">Zuhair Taha</h5>
 					<p>Web Developer</p>
@@ -36,7 +36,7 @@ function ProfileCard() {
 			<div className="card-panel z-depth-0">
 				<a
 					className="hvr-grow-shadow btn red darken-2 waves-effect waves-light btn-block"
-					href="/pdf/zuhair_taha_CV.pdf">
+					href={`${import.meta.env.BASE_URL}pdf/zuhair_taha_CV.pdf`}>
 					Download CV
 				</a>
 			</div>
@@ -117,13 +117,13 @@ function SamplesCard({ samples }) {
 							<li className={itemClass} key={web.id}>
 								<a
 									className="hvr-grow-shadow"
-									href={`/images/websites/${web.id}.jpg`}
+									href={`${import.meta.env.BASE_URL}images/websites/${web.id}.jpg`}
 									target="_blank"
 									rel="noreferrer"
 									title={`${web.programming} - ${web.year}`}>
 									<img
 										className="responsive-img z-depth-2"
-										src={`/images/thumb/thumb_${web.id}.jpg`}
+										src={`${import.meta.env.BASE_URL}images/thumb/thumb_${web.id}.jpg`}
 										alt={`thumb_${web.id}`}
 									/>
 								</a>
@@ -170,8 +170,8 @@ export default function App() {
 
 	useEffect(() => {
 		Promise.all([
-			fetch('/javascripts/skills.json').then(response => response.json()),
-			fetch('/javascripts/samples.json').then(response => response.json())
+			fetch(`${import.meta.env.BASE_URL}javascripts/skills.json`).then(response => response.json()),
+			fetch(`${import.meta.env.BASE_URL}javascripts/samples.json`).then(response => response.json())
 		])
 			.then(([skillsData, samplesData]) => {
 				setSkills(skillsData);
